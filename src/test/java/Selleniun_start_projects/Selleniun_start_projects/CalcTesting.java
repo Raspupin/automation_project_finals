@@ -1,8 +1,6 @@
 package Selleniun_start_projects.Selleniun_start_projects;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
-
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Before;
@@ -12,10 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import Selleniun_start_projects.Selleniun_start_projects.IsATriangleTesting.TriangleType;
 
 public class CalcTesting {
 	static WebDriver browser;
